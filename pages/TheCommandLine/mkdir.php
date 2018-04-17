@@ -1,9 +1,10 @@
 <?php
 	$title='PALTS : mkdir';
 	$path='../../';
-	$nav='';
+	$nav='mkdir';
 	include($path.'assets/inc/head.php');
 ?>
+<hr>
 <h2>The Command Line: mkdir</h2>
 <hr>
 <picture class="titlePicture">
