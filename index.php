@@ -1,7 +1,7 @@
 <?php
 	$title='PALTS : HOME';
 	$path='./';
-	$nav='';
+	$nav='home';
 	include($path.'assets/inc/head.php');
 	// include($path.'assets/inc/nav.php');
 ?>
@@ -19,7 +19,17 @@
 		 It teaches them all the basic commands and flags associated with each command.
 	</p>
 
-	<h2>A Little About US</h2>
+	<?php
+		include($path.'assets/inc/howto.php');
+	?>
+
+	<br>
+
+	<?php
+		include($path.'assets/inc/terminal.php');
+	?>
+
+	<h2>A Little About Us</h2>
 	<hr>
 	<p>
 		This site is a free resource for developers and always will be.
